@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": "ethiopia-yirgacheffe",
+    "name": "Ethiopia Yirgacheffe",
+    "origin": "Yirgacheffe, Etiyopya",
+    "roastLevel": "Açık",
+    "tastingNotes": ["Yasemin", "Bergamot", "Limon"],
+    "price": 420,
+    "imageUrl": "https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=900",
+    "description": "Etiyopya'nın yüksek rakımlı bölgelerinden gelen zarif ve canlı bir kahve. Çiçeksi aroması ve narenciye notalarıyla ferahlatıcı bir içim sunar."
+  },
+  {
+    "id": "colombia-huila",
+    "name": "Colombia Huila",
+    "origin": "Huila, Kolombiya",
+    "roastLevel": "Orta",
+    "tastingNotes": ["Karamel", "Kırmızı Elma", "Çikolata"],
+    "price": 390,
+    "imageUrl": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900",
+    "description": "Dengeli gövdesi ve tatlı karakteriyle öne çıkan bir kahve. Karamel ve kırmızı elma notalarıyla günlük kahve keyfinize eşlik eder."
+  },
+  {
+    "id": "brazil-santos",
+    "name": "Brazil Santos",
+    "origin": "Santos, Brezilya",
+    "roastLevel": "Orta",
+    "tastingNotes": ["Fındık", "Sütlü Çikolata", "Badem"],
+    "price": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900",
+    "description": "Fındıksı tatlılığı ve çikolata bitişiyle yumuşak içimli, keyifli bir kahve. Espresso ve sütlü kahve tarifleri için ideal bir seçenektir."
+  },
+  {
+    "id": "kenya-aa",
+    "name": "Kenya AA",
+    "origin": "Nyeri, Kenya",
+    "roastLevel": "Açık",
+    "tastingNotes": ["Siyah Frenk Üzümü", "Greyfurt", "Orman Meyveleri"],
+    "price": 450,
+    "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900",
+    "description": "Canlı asiditesi ve meyvemsi karakteriyle dikkat çeken özel bir kahve. Orman meyveleri ve greyfurt notalarıyla kendine özgü bir lezzet sunar."
+  },
+  {
+    "id": "guatemala-antigua",
+    "name": "Guatemala Antigua",
+    "origin": "Antigua, Guatemala",
+    "roastLevel": "Orta",
+    "tastingNotes": ["Bitter Çikolata", "Portakal", "Esmer Şeker"],
+    "price": 410,
+    "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=900",
+    "description": "Zengin aroması ve dengeli karakteriyle öne çıkan bir kahve. Bitter çikolata ve portakal notalarıyla derin ve kompleks bir lezzet deneyimi sunar."
+  },
+  {
+    "id": "costa-rica-tarrazu",
+    "name": "Costa Rica Tarrazú",
+    "origin": "Tarrazú, Kosta Rika",
+    "roastLevel": "Açık",
+    "tastingNotes": ["Bal", "Şeftali", "Narenciye"],
+    "price": 430,
+    "imageUrl": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=900",
+    "description": "Hafif tatlılığı ve temiz içimiyle zarif bir kahve. Bal, şeftali ve narenciye notalarıyla ferahlatıcı bir bitiş sunar."
+  }
+]

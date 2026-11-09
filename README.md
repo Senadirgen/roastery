@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ROASTERY. – Özel Kahve Koleksiyonu
 
-## Getting Started
+ROASTERY, dünyanın farklı bölgelerinden özenle seçilmiş özel kahveleri tanıtmak amacıyla geliştirilmiş modern bir web projesidir. Minimalist tasarımı ve kullanıcı dostu arayüzüyle kahve çeşitlerini keşfetme ve inceleme imkânı sunar.
 
-First, run the development server:
+## Proje Özellikleri
+
+- **Kahve Koleksiyonu:** Farklı ülkelerden ve bölgelerden 6 özel kahve çeşidini görüntüleme.
+- **Canlı Arama:** Kahveleri isimlerine, yetiştirildikleri bölgelere veya aroma notalarına göre arama.
+- **Dinamik Detay Sayfaları:** Her kahve için kendine ait detay sayfası.
+- **Kahve Bilgileri:** Kahvelerin menşei, kavrum seviyesi, aroma notaları, fiyatı ve açıklamalarını görüntüleme.
+- **Responsive Tasarım:** Bilgisayar, tablet ve mobil cihazlarla uyumlu arayüz.
+- **Sepet Sistemi:** Kahveleri farklı gramaj seçenekleriyle sepete ekleme.
+- **Yerel Veri Yönetimi:** Kahve bilgilerini harici bir veritabanı kullanmadan JSON dosyasında saklama.
+
+## Kullanılan Teknolojiler
+
+- Next.js (App Router)
+- React
+- JavaScript
+- Tailwind CSS
+- JSON
+- Local Storage
+
+## Proje Klasör Yapısı
+
+```text
+roastery/
+├── app/
+│   ├── coffees/
+│   │   └── [id]/
+│   │       └── page.js
+│   ├── cart/
+│   │   └── page.js
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── components/
+│   ├── CartLink.js
+│   ├── CoffeeCard.js
+│   ├── CoffeeDetailClient.js
+│   ├── CoffeeSearch.js
+│   └── EmptyState.js
+├── data/
+│   └── coffees.json
+├── public/
+├── package.json
+└── README.md
+```
+
+## Kurulum ve Çalıştırma
+
+### Gereksinimler
+
+- Node.js
+- npm
+
+### 1. Projeyi bilgisayarınıza indirin
+
+```bash
+git clone GITHUB_REPOSITORY_LINK
+```
+
+### 2. Proje klasörüne girin
+
+```bash
+cd roastery
+```
+
+### 3. Gerekli paketleri yükleyin
+
+```bash
+npm install
+```
+
+### 4. Projeyi çalıştırın
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcınızdan aşağıdaki adrese giderek projeyi görüntüleyebilirsiniz:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Veri Yapısı
 
-## Learn More
+Kahve bilgileri proje içerisindeki `data/coffees.json` dosyasında tutulmaktadır.
 
-To learn more about Next.js, take a look at the following resources:
+Her kahve kaydı aşağıdaki alanları içerir:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `id`: Kahveye ait benzersiz kimlik.
+- `name`: Kahvenin adı.
+- `origin`: Kahvenin yetiştirildiği bölge.
+- `roastLevel`: Kavrum seviyesi.
+- `tastingNotes`: Aroma notaları.
+- `price`: Kahvenin fiyatı.
+- `imageUrl`: Kahve görselinin bağlantısı.
+- `description`: Kahvenin açıklaması.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Üretim Sürümü
 
-## Deploy on Vercel
+Projenin üretim sürümünü oluşturmak için:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Üretim sürümünü başlatmak için:
+
+```bash
+npm run start
+```
+
+## Proje Hakkında
+
+ROASTERY, frontend geliştirme çalışması kapsamında hazırlanmıştır.
