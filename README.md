@@ -114,3 +114,11 @@ npm run start
 ## Proje Hakkında
 
 ROASTERY, frontend geliştirme çalışması kapsamında hazırlanmıştır.
+
+**Canlı Demo**
+
+[ROASTERY – Canlı Site](https://roastery-hazel.vercel.app)
+
+**GitHub Repository**
+
+[GitHub – ROASTERY](https://github.com/Senadirgen/roastery)
